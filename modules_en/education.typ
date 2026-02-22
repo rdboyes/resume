@@ -15,5 +15,15 @@
   logo: image("../src/logos/QueensLogo_colour.png"),
   description:
     list([Completed coursework in epidemiology, statistics, and research methods, with a focus on the application of statistical models to public health problems.
-    My dissertation research focused on the development of prediction models for outdoor active play behaviour in children.]),
+    Dissertation research focused on the development of prediction models for outdoor active play behaviour in children using data extracted from street-level images of their built environment along with other environmental and demographic data.]),
+)
+
+
+#cvEntry(
+  title: [MSc Epidemiology & BScH Life Sciences],
+  society: [Queen's University],
+  date: [2009 - 2015],
+  location: [Kingston, ON],
+  logo: image("../src/logos/QueensLogo_colour.png"),
+  description: [],
 )

@@ -63,7 +63,7 @@ link = "https://qspace.library.queensu.ca/items/2b30c32e-0a13-4929-ae2a-7bd2fc0c
 # i.e. [[lang.ru]]
 # each section must contains the following fields
 [lang.en]
-header_quote = "Epidemiologist by training. Leading a team dedicated to modelling decision-making in high-risk scenarios at Presage."
+header_quote = "Epidemiologist and data scientist with 8+ years of experience leading quantitative research and analytics teams across health, defence, and safety-critical industries."
 cv_footer = "Curriculum vitae"
 letter_footer = "Cover letter"
 

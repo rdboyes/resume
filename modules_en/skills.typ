@@ -8,15 +8,15 @@
 
 #cvSkill(
   type: [Programming],
-  info: [R #hBar() Julia #hBar() Python #hBar() Stan #hBar() Rust],
+  info: [R #hBar() Julia #hBar() Python #hBar() Stan (Bayesian Modelling)#hBar() SQL #hBar() Excel #hBar() Rust],
 )
 
 #cvSkill(
   type: [Reporting],
-  info: [typst #hBar() LaTeX #hBar() quarto #hBar() RMarkdown #hBar() Next.js #hBar() shiny  #hBar() MS Office],
+  info: [Typst #hBar() LaTeX #hBar() Quarto #hBar() R Markdown #hBar() Next.js #hBar() Shiny  #hBar() MS Office],
 )
 
 #cvSkill(
   type: [Deployment],
-  info: [Firebase #hBar() Google Cloud #hBar() Docker #hBar() nginx],
+  info: [Firebase #hBar() Google Cloud #hBar() Docker #hBar() Nginx],
 )
