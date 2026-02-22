@@ -1,5 +1,5 @@
 // Imports
-#import "@preview/brilliant-cv:2.0.2": cvSection, cvEntry, hBar
+#import "@preview/brilliant-cv:2.0.5": cvSection, cvEntry, hBar
 #let metadata = toml("../metadata.toml")
 #let cvSection = cvSection.with(metadata: metadata)
 #let cvEntry = cvEntry.with(metadata: metadata)
@@ -13,32 +13,7 @@
   date: [2016 - 2023],
   location: [Kingston, ON],
   logo: image("../src/logos/QueensLogo_colour.png"),
-  description: list(
-    [Thesis: Development of a Canadian Index of Playability],
-    [Courses: Statistics #hBar() Epidemiology],
-  ),
-)
-
-#cvEntry(
-  title: [Master of Science: Epidemiology],
-  society: [Queen's University],
-  date: [2013 - 2015],
-  location: [Kingston, ON],
-  logo: image("../src/logos/QueensLogo_colour.png"),
-  description: list(
-    [Thesis: Patterns of Use and Comparative Safety of New and Old Anticholinergic Medications in Older Adults: a Population-Based Study],
-    [Courses: Statistics #hBar() Public Health #hBar() Pharmacoepidemiology],
-  ),
-)
-
-#cvEntry(
-  title: [Bachelor of Science (Honors)],
-  society: [Queen's University],
-  date: [2009 - 2013],
-  location: [Kingston, ON],
-  logo: image("../src/logos/QueensLogo_colour.png"),
-  description: list(
-    [Thesis: Caregiver Out-of-Pocket Costs for Octogenarian Intensive Care Unit Patients in Canada],
-    [Courses: Life Sciences #hBar() Epidemiology #hBar() Mathematics #hBar() Statistics],
-  ),
+  description:
+    list([Completed coursework in epidemiology, statistics, and research methods, with a focus on the application of statistical models to public health problems.
+    My dissertation research focused on the development of prediction models for outdoor active play behaviour in children.]),
 )

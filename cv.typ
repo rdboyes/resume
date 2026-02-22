@@ -1,6 +1,6 @@
 // Imports
-#import "@preview/brilliant-cv:2.0.2": cv
-#import "@preview/fontawesome:0.4.0"
+#import "@preview/brilliant-cv:2.0.5": cv
+#import "@preview/fontawesome:0.6.0"
 #let metadata = toml("./metadata.toml")
 #let importModules(modules, lang: metadata.language) = {
   for module in modules {
@@ -17,6 +17,6 @@
 #importModules((
   "professional",
   "education",
-  "publications",
+  "projects",
   "skills",
 ))

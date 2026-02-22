@@ -1,20 +1,27 @@
 // Imports
-#import "@preview/brilliant-cv:2.0.2": cvSection, cvEntry
+#import "@preview/brilliant-cv:2.0.5": cvSection, cvEntry
 #let metadata = toml("../metadata.toml")
 #let cvSection = cvSection.with(metadata: metadata)
 #let cvEntry = cvEntry.with(metadata: metadata)
 
 
-#cvSection("Projects & Associations")
+#cvSection("Projects and Volunteer Activity")
 
 #cvEntry(
-  title: [Volunteer Data Analyst],
-  society: [ABC Nonprofit Organization],
-  date: [2019 - Present],
-  location: [New York, NY],
-  description: list(
-    [Analyze donor and fundraising data to identify trends and opportunities for growth],
-    [Create data visualizations and dashboards to communicate insights to the board of directors],
-    [Collaborate with other volunteers to develop and implement data-driven strategies],
-  ),
+  title: [Author or Primary Maintainer],
+  society: [Open Source Software Development],
+  date: [2021 - Present],
+  location: [Remote],
+  description: list([TidierPlots.jl: A 100% julia reimplementation of R's ggplot2],
+  [Firebase.jl: A julia client for Google's Firebase platform],
+  [Sentry.jl: A julia SDK for the sentry.io error monitoring service],
+
+))
+
+#cvEntry(
+  title: [Volunteer Firefighter],
+  society: [Wolfe Island Fire Department],
+  date: [2024 - Present],
+  location: [Wolfe Island, ON],
+  description: [],
 )
