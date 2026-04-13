@@ -14,7 +14,7 @@
   location: [Kingston, ON],
   logo: image("../src/logos/QueensLogo_colour.png"),
   description:
-    list([Completed coursework in epidemiology, statistics, and research methods, with a focus on the application of statistical models to public health problems.
+    list([Completed coursework in epidemiology, statistics, causal inference, and experimental design. 
     Dissertation research focused on the development of prediction models for outdoor active play behaviour in children using data extracted from street-level images of their built environment along with other environmental and demographic data.]),
 )
 

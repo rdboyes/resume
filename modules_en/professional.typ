@@ -14,10 +14,10 @@
   date: [2021 - Present],
   location: [Burlington, ON],
   description: list(
-    [Served as technical lead from initial scope to client-facing reporting on over a dozen projects focused on understanding human decision-making for clients in the aviation, air traffic control, and utilities sectors.],
-    [Developed and supervised the development of internal tools for training and deployment of statistical models and the creation of automated reports and dashboards.],
+    [Served as technical lead from initial scope to client-facing reporting on over a dozen projects focused on the causes of human decision-making for clients in the aviation sector.],
+    [Developed and supervised the development of internal tools for training and deployment of statistical models, automated reports and dashboards, and LLM-based web applications.],
     [Provided mentorship to junior staff and grew the team from one to five data scientists and analysts.],
-    [Worked with the company's leadership team to develop and implement strategies for growth and expansion, including the developing new service offerings and pursuing new business opportunities.],
+    [Worked with the company's leadership team to develop and implement strategies for growth and expansion, including the developing new service offerings and pursuing new business opportunities.]
   )
 )
 
@@ -28,7 +28,7 @@
   date: [2020 - 2021],
   location: [Toronto, ON],
   description: list(
-    [Worked with a team of physicians and analysts to develop a prediction model for cancer outcomes using large health databases. This work resulted in two publications in medical journals. ]
+    [Worked with a team of physicians and analysts to develop and validate a prediction model for esophageal cancer outcomes using large health databases. This work was published in a medical journal.]
   ),
 )
 
