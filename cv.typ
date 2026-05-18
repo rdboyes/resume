@@ -12,7 +12,7 @@
 
 
 #show: cv.with(
-  metadata
+  metadata,
 )
 #importModules((
   "professional",

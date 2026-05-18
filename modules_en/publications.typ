@@ -1,18 +1,21 @@
 // Imports
-#import "@preview/brilliant-cv:2.0.5": cvSection, cvPublication
+#import "@preview/brilliant-cv:2.0.5": cvPublication, cvSection
 #let metadata = toml("../metadata.toml")
 #let cvSection = cvSection.with(metadata: metadata)
 
 
-#cvSection("Recent Publications")
+#cvSection("Scientific Publications")
+
+#table(
+  columns(1fr, 8fr, 2fr),
+  [Year],
+  [Summary],
+  [Link],
+  [2026],
+  [Developed and validated a ],
+)
 
 #cvPublication(
   bib: bibliography("../src/publications.bib"),
-  keyList: (
-    "wilde2024assessing",
-    "boyes2023physical",
-    "batsos2023development",
-    "harrison2022development"
-  ),
   refStyle: "apa",
 )

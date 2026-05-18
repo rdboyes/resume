@@ -1,5 +1,5 @@
 // Imports
-#import "@preview/brilliant-cv:2.0.5": cvSection, cvEntry, hBar
+#import "@preview/brilliant-cv:2.0.5": cvEntry, cvSection, hBar
 #let metadata = toml("../metadata.toml")
 #let cvSection = cvSection.with(metadata: metadata)
 #let cvEntry = cvEntry.with(metadata: metadata)
@@ -13,9 +13,8 @@
   date: [2016 - 2023],
   location: [Kingston, ON],
   logo: image("../src/logos/QueensLogo_colour.png"),
-  description:
-    list([Completed coursework in epidemiology, statistics, causal inference, and experimental design. 
-    Dissertation research focused on the development of prediction models for outdoor active play behaviour in children using data extracted from street-level images of their built environment along with other environmental and demographic data.]),
+  description: list([Completed coursework in epidemiology, statistics, causal inference, and experimental design.
+    Developed models for outdoor active play in children using data from street-level images of their built environment.]),
 )
 
 

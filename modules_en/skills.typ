@@ -12,7 +12,7 @@
 )
 
 #cvSkill(
-  type: [Reporting],
+  type: [Reports & Infra.],
   info: [Typst #hBar() LaTeX #hBar() Quarto #hBar() Next.js #hBar() Shiny #hBar() Firebase #hBar() Google Cloud #hBar() Docker #hBar() Nginx],
 )
 
