@@ -8,15 +8,20 @@
 
 #cvSkill(
   type: [Programming],
-  info: [R #hBar() Julia #hBar() Python #hBar() Stan (Bayesian Modelling)#hBar() SQL #hBar() Excel #hBar() Rust #hBar() C++ #hBar() Tensorflow],
+  info: [Python #hBar() SQL #hBar() R #hBar() Julia #hBar() Stan (Bayesian Modelling) #hBar() Rust #hBar() C++ #hBar() Tensorflow],
 )
 
 #cvSkill(
-  type: [Reports & Infra.],
-  info: [Typst #hBar() LaTeX #hBar() Quarto #hBar() Next.js #hBar() Shiny #hBar() Firebase #hBar() Google Cloud #hBar() Docker #hBar() Nginx],
+  type: [Data & Backend],
+  info: [REST APIs #hBar() ETL / Data Pipelines #hBar() Data Modelling #hBar() Next.js #hBar() Shiny #hBar() Firebase],
 )
 
 #cvSkill(
-  type: [Statistics],
-  info: [Causal Inference #hBar() Prediction Models #hBar() Randomized Trials #hBar() Graphical Models #hBar() Structure Learning],
+  type: [Infra. & Tooling],
+  info: [Cloud (GCP) #hBar() flask (Python web framework) #hBar() Docker #hBar() Nginx #hBar() Git #hBar() Typst #hBar() LaTeX #hBar() Quarto],
+)
+
+#cvSkill(
+  type: [Statistics/ML],
+  info: [LLM Applications #hBar() Causal Inference #hBar() Forecasting #hBar() Randomized Trials #hBar() Mixed Effect Models #hBar() NLP],
 )

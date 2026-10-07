@@ -2,9 +2,6 @@
 #import "@preview/brilliant-cv:2.0.5": cv
 #import "@preview/fontawesome:0.6.0"
 #let metadata = toml("./metadata.toml")
-
-#set text(6pt)
-
 #let importModules(modules, lang: metadata.language) = {
   for module in modules {
     include {

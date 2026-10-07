@@ -13,8 +13,8 @@
   date: [2016 - 2023],
   location: [Kingston, ON],
   logo: image("../src/logos/QueensLogo_colour.png"),
-  description: list([Completed coursework in epidemiology, statistics, causal inference, and experimental design.
-    Developed models for outdoor active play in children using data from street-level images of their built environment.]),
+  description: list([Completed coursework in epidemiology, statistics, causal inference, and experimental design.],
+  [Developed models of childrens' active play using geospatial data along with images of their neighborhood.]),
 )
 
 

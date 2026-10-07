@@ -34,7 +34,7 @@
 
 #cvEntry(
   title: [Volunteer Firefighter],
-  society: [Wolfe Island Fire Department],
+  society: [Wolfe Island Fire & Rescue],
   logo: box(clip: true, radius: 50%, image("../src/logos/wi_fire.jpg")),
   date: [2024 - Present],
   location: [Wolfe Island, ON],
